@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content='width=device-width,initial-scale=1.0'>
+    <title>Hotwheels</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <div class ="quiz-container">
+    <div class="quiz-header">
+    <h2 id="question">Select Year && Case letter</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" value="20">2020
+        </li>
+        <li>
+          <input type="radio" name="answer" value="21">2021
+        </li>
+        </ul>
+
+        <label for="case">Choose Case Letter:</label>
+        <select name="case" id="case">
+          <option value="1">A</option>
+          <option value="2">B</option>
+          <option value="3">C</option>
+          <option value="4">D</option>
+          <option value="5">E</option>
+          <option value="6">F</option>
+          <option value="7">G</option>
+          <option value="8">H</option>
+          <option value="9">J</option>
+          <option value="10">K</option>
+          <option value="11">L</option>
+          <option value="12">M</option>
+          <option value="13">N</option>
+          <option value="14">P</option>
+          <option value="15">Q</option>
+        </select>
+
+      </div>
+      <button type="button" onclick="displayHunt()">Submit</button>
+      <br>
+      <div class ="result-container">
+      <div id="result"></div>  
+        <div id="result2"></div>
+      </div>  
+    </div>
+</body>
+</html>
