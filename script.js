@@ -1,17 +1,30 @@
 
+// This Is a project I made with 0 knowledge on javascript, html, or CSS.
+// It defiently took longer than it should, and this code is defiently
+// Overcomplicated, but It was fun to learn HTML and Javascript to make
+// An App that is useful for me.
+
+
 function displayHunt() {
     getRadio();
     getList();
     
+    var src1 = document.getElementById("resimg");
+
+    var src2 = document.getElementById("res2img");
+
     if(x==20){
         document.getElementById("result").innerHTML = getSoup2020();
+        src1.src = getSoupPic2020();
         document.getElementById("result2").innerHTML = getHunt2020();
-        
+        src2.src = getHuntPic2020();
     }
 
     if(x==21){
         document.getElementById("result").innerHTML = getSoup2021();
+        src1.src = getSoupPic2021();
         document.getElementById("result2").innerHTML = getHunt2021();
+        src2.src = getHuntPic2021();
     }
 }
 
@@ -168,3 +181,138 @@ function getHunt2021() {
     } 
 }
 
+function getSoupPic2020() {
+    if (y==1){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Nissan-Skyline-GT-R.jpg");
+    } else if(y==2){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-ford-gt-40.jpg");
+    } else if(y==3){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-67-Commando-Jeepster.jpg");
+    } else if(y==4){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Porsche-918-Spyder.jpg");
+    } else if(y==5){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-88-Honda-CR-X.jpg");
+    } else if(y==6){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Mazda-RX-7.jpg");
+    } else if(y==7){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-17-Nissan-GT-R-R35.jpg");
+    } else if(y==8){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-84-Audi-Sport-Quattro.jpg");
+    } else if(y==9){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Lamborghini-Sesto-Elemento.jpg");
+    } else if(y==10){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-57-Chevy.jpg");
+    } else if(y==11){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Custom-69-Chevy.jpg");
+    } else if(y==12){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/65-Ford-Galaxie.jpg");
+    } else if(y==13){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-18-Dodge-Challenger-SRT-Demon.jpg");
+    } else if(y==14){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-17-Pagani-Huayra-Roadster.jpg");
+    } else if(y==15){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/64-Chevy-Chevelle-SS-1.jpg");
+    }
+}
+
+function getHuntPic2020() {
+    if (y==1){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Bubble-Matic.jpg");
+    } else if(y==2){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Mercedes-Benz-Unimog-1300-2.jpg");
+    } else if(y==3){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Grass-Chomper.jpg");
+    } else if(y==4){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Buns-of-Steel.jpg");
+    } else if(y==5){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/Batman-Arkham-Asylum-Batmobile.jpg");
+    } else if(y==6){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Circle-Trucker.jpg");
+    } else if(y==7){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Dodge-Charger-Daytona.jpg");
+    } else if(y==8){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2013-Hot-Wheels-Chevy-Camaro-Special-Edition.jpg");
+    } else if(y==9){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Power-Pistons.jpg");
+    } else if(y==10){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Custom-56-Ford-Truck.jpg");
+    } else if(y==11){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Dune-Daddy.jpg");
+    } else if(y==12){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Tricera-Truck.jpg");
+    } else if(y==13){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-The-Beatles-Yellow-Submarine.jpg");
+    } else if(y==14){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Chevy-Silverado.jpg");
+    } else if(y==15){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Dodge-Viper-RT10.jpg");
+    }
+}
+
+function getSoupPic2021() {
+    if (y==1){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Nissan-300ZX-Twin-Turbo.jpg");
+    } else if(y==2){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Corvette-Grand-Sport-Roadster.jpg");
+    } else if(y==3){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Rodger-Dodger.jpg");
+    } else if(y==4){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/95-Mazda-RX-7.jpg");
+    } else if(y==5){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/Corvette-C7-Z06-Convertible.jpg");
+    } else if(y==6){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/Mazda-RX-3.jpg");
+    } else if(y==7){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Ford-Mustang-Shelby-GT500.jpg");
+    } else if(y==8){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==9){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==10){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==11){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==12){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==13){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==14){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==15){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } 
+}
+
+function getHuntPic2021() {
+    if (y==1){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Baja-Bone-Shaker.jpg");
+    } else if(y==2){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Street-Wiener.jpg");
+    } else if(y==3){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Custom-77-Dodge-Van.jpg");
+    } else if(y==4){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==5){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==6){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==7){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==8){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==9){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==10){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==11){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==12){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==13){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==14){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } else if(y==15){
+        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+    } 
+}

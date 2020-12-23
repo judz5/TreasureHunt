@@ -8,6 +8,7 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+  <img class ="img-header" src="https://assets.stickpng.com/images/5a1c364cf65d84088faf1400.png" alt="Logo">  
   <div class ="quiz-container">
     <div class="quiz-header">
     <h2 id="question">Select Year && Case letter</h2>
@@ -19,8 +20,7 @@
           <input type="radio" name="answer" value="21">2021
         </li>
         </ul>
-
-        <label for="case">Choose Case Letter:</label>
+        <label class="label-container" for="case">Choose Case Letter:</label>
         <select name="case" id="case">
           <option value="1">A</option>
           <option value="2">B</option>
@@ -43,9 +43,13 @@
       <button type="button" onclick="displayHunt()">Submit</button>
       <br>
       <div class ="result-container">
-      <div id="result"></div>  
+      <div id="result"></div>
+      <img src="//:0" alt="" class="soupPic" id="resimg">
+      <br>
         <div id="result2"></div>
+        <img src="//:0" alt="" class="huntPic" id="res2img">
       </div>  
     </div>
 </body>
 </html>
+
