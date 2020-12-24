@@ -4,6 +4,10 @@
 // Overcomplicated, but It was fun to learn HTML and Javascript to make
 // An App that is useful for me.
 
+//things to do
+// - Add an all option
+
+
 
 function displayHunt() {
     getRadio();
@@ -13,11 +17,15 @@ function displayHunt() {
 
     var src2 = document.getElementById("res2img");
 
+    var src3 = document.getElementById("idImage");
+
     if(x==20){
         document.getElementById("result").innerHTML = getSoup2020();
         src1.src = getSoupPic2020();
         document.getElementById("result2").innerHTML = getHunt2020();
         src2.src = getHuntPic2020();
+        document.getElementById("idCar").innerHTML = getID2020();
+        src3.src = getIDPic2020();
     }
 
     if(x==21){
@@ -25,6 +33,8 @@ function displayHunt() {
         src1.src = getSoupPic2021();
         document.getElementById("result2").innerHTML = getHunt2021();
         src2.src = getHuntPic2021();
+        document.getElementById("idCar").innerHTML = getID2021();
+        src3.src = getIDPic2021();
     }
 }
 
@@ -315,4 +325,60 @@ function getHuntPic2021() {
     } else if(y==15){
         return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
     } 
+}
+
+function getID2020() {
+    if (y==1){
+        return ("ID Chase :: Night Shifter");
+    } else if(y==3){
+        return ("ID Chase :: '70 Ford Escort RS1600");
+    } else if(y==5){
+        return ("ID Chase :: Time Attaxi");
+    } else if(y==7){
+        return ("ID Chase :: Motosaurus");
+    } else if(y==9){
+        return ("ID Chase :: Bone Shaker");
+    } else if(y==11){
+        return ("ID Chase :: TV Series Batmobile");
+    } else if(y==13){
+        return ("ID Chase :: Aston Martin One-77");
+    } else if(y==15){
+        return ("ID Chase :: '70 Dodge Charger R/T");
+    }else{
+        return ("");
+    }
+}
+
+function getIDPic2020() {
+    if (y==1){
+        return ("https://idchecklist.com/wp-content/uploads/2020/02/2020-Night-Shifter-Chase-7.jpg");
+    } else if(y==3){
+        return ("https://idchecklist.com/wp-content/uploads/2020/02/2020-70-Ford-Escort-RS1600-Chase-8.jpg");
+    } else if(y==5){
+        return ("https://idchecklist.com/wp-content/uploads/2020/02/2020-Time-Attaxi-Chase-7.jpg");
+    } else if(y==7){
+        return ("https://idchecklist.com/wp-content/uploads/2020/02/2020-Motosaurus-Chase-1.jpg");
+    } else if(y==9){
+        return ("https://idchecklist.com/wp-content/uploads/2020/02/2020-Bone-Shaker-Chase-3.jpg");
+    } else if(y==11){
+        return ("https://idchecklist.com/wp-content/uploads/2020/03/2020-TV-Series-Batmobile-Chase-International-Card.jpg");
+    } else if(y==13){
+        return ("https://idchecklist.com/wp-content/uploads/2020/05/2020-Aston-Martin-One-77-Chase-Blister-Card.jpg");
+    } else if(y==15){
+        return ("https://idchecklist.com/wp-content/uploads/2020/10/2021-70-Dodge-Charger-RT-Chase.jpg");
+    }
+}
+
+function getID2021() {
+    if(y==1){
+        return ("ID Chase :: Batman: Arkham Knight Batmobile");
+    }else{
+        return ("");
+    }
+}
+
+function getIDPic2021() {
+    if(y==1){
+        return ("https://idchecklist.com/wp-content/uploads/2020/11/2021-Arkham-Knight-Batmobile-Chase-6.jpg");
+    }
 }
