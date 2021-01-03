@@ -39,12 +39,22 @@ function displayHunt() {
     }
 
     if(x==21){
+        if(y==50){
+            src1.src="AllSuper2021.jpg";
+            document.getElementById("result").innerHTML = "";
+            document.getElementById("result2").innerHTML = "";
+            document.getElementById("idCar").innerHTML = "";
+            src2.src="//:0";
+            src3.src="//:0";
+        }else{
         document.getElementById("result").innerHTML = getSoup2021();
         src1.src = getSoupPic2021();
         document.getElementById("result2").innerHTML = getHunt2021();
         src2.src = getHuntPic2021();
         document.getElementById("idCar").innerHTML = getID2021();
         src3.src = getIDPic2021();
+        }
+       
     }
 }
 
