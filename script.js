@@ -6,7 +6,7 @@
 
 //things to do
 // - Add an all option
-
+// - all option is added but its very bad, fix all option
 
 
 function displayHunt() {
@@ -20,12 +20,22 @@ function displayHunt() {
     var src3 = document.getElementById("idImage");
 
     if(x==20){
+        if(y==50){
+            src1.src="AllSuper.jpg";
+            document.getElementById("result").innerHTML = "";
+            document.getElementById("result2").innerHTML = "";
+            document.getElementById("idCar").innerHTML = "";
+            src2.src="//:0";
+            src3.src="//:0";
+        }else{
         document.getElementById("result").innerHTML = getSoup2020();
         src1.src = getSoupPic2020();
         document.getElementById("result2").innerHTML = getHunt2020();
         src2.src = getHuntPic2020();
         document.getElementById("idCar").innerHTML = getID2020();
-        src3.src = getIDPic2020();
+        src3.src = getIDPic2020();  
+        }
+        
     }
 
     if(x==21){
