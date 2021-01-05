@@ -185,7 +185,7 @@ function getHunt2021() {
     } else if(y==3){
         return ("T-Hunt :: Custom '77 Dodge Van");
     } else if(y==4){
-        return ("T-Hunt :: Not Released");
+        return ("T-Hunt :: Motosaurus");
     } else if(y==5){
         return ("T-Hunt :: Not Released");
     } else if(y==6){
@@ -321,7 +321,7 @@ function getHuntPic2021() {
     } else if(y==3){
         return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Custom-77-Dodge-Van.jpg");
     } else if(y==4){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Motosaurus.jpg");
     } else if(y==5){
         return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
     } else if(y==6){
@@ -392,13 +392,17 @@ function getIDPic2020() {
 function getID2021() {
     if(y==1){
         return ("ID Chase :: Batman: Arkham Knight Batmobile");
+    }else if(y==5){
+        return ("ID Chase :: GT Hunter");
     }else{
-        return ("");
+        return("");
     }
 }
 
 function getIDPic2021() {
     if(y==1){
         return ("https://idchecklist.com/wp-content/uploads/2020/11/2021-Arkham-Knight-Batmobile-Chase-6.jpg");
+    }else if(y==5){
+        return ("https://idchecklist.com/wp-content/uploads/2021/01/2021-GT-Hunter-Chase-2.jpg");
     }
 }
