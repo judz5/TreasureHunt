@@ -19,6 +19,15 @@ function displayHunt() {
 
     var src3 = document.getElementById("idImage");
 
+    if(x==19){
+        document.getElementById("result").innerHTML = getSoup2019();
+        src1.src = getSoupPic2019();
+        document.getElementById("result2").innerHTML = getHunt2019();
+        //src2.src = getHuntPic2019();
+        document.getElementById("idCar").innerHTML = "";
+        src3.src = "//:0";  
+    }
+    
     if(x==20){
         if(y==50){
             src1.src="AllSuper.jpg";
@@ -405,4 +414,140 @@ function getIDPic2021() {
     }else if(y==5){
         return ("https://idchecklist.com/wp-content/uploads/2021/01/2021-GT-Hunter-Chase-2.jpg");
     }
+}
+
+function getSoup2019() {
+    if (y==1){
+        return ("Super T-Hunt :: ’90 Honda Civic EF");
+    } else if(y==2){
+        return ("Super T-Hunt :: Nissan Skyline GT-R (BNR34)");
+    } else if(y==3){
+        return ("Super T-Hunt :: Corvette Grand Sport Roadster");
+    } else if(y==4){
+        return ("Super T-Hunt :: Volkswagen T2 Pickup");
+    } else if(y==5){
+        return ("Super T-Hunt :: Back to the Future Time Machine – Hover Mode");
+    } else if(y==6){
+        return ("Super T-Hunt :: Mazda REPU");
+    } else if(y==7){
+        return ("Super T-Hunt :: ’92 Ford Mustang");
+    } else if(y==8){
+        return ("Super T-Hunt :: ’68 Mercury Cougar");
+    } else if(y==9){
+        return ("Super T-Hunt :: ’69 Corvette Racer");
+    } else if(y==10){
+        return ("Super T-Hunt :: ’18 Dodge Challenger SRT Demon");
+    } else if(y==11){
+        return ("Super T-Hunt :: Street Creeper");
+    } else if(y==12){
+        return ("Super T-Hunt :: Lamborghini Aventador J");
+    } else if(y==13){
+        return ("Super T-Hunt :: Tesla Model S");
+    } else if(y==14){
+        return ("Super T-Hunt :: Morris Mini");
+    } else if(y==15){
+        return ("Super T-Hunt :: Porsche 911 GT3 RS");
+    } 
+}
+
+function getHunt2019() {
+    if (y==1){
+        return ("T-Hunt :: Bazoomka");
+    } else if(y==2){
+        return ("T-Hunt :: Sting Rod");
+    } else if(y==3){
+        return ("T-Hunt :: ’69 Chevelle");
+    } else if(y==4){
+        return ("T-Hunt :: Twin Mill");
+    } else if(y==5){
+        return ("T-Hunt :: Honda Monkey Z50");
+    } else if(y==6){
+        return ("T-Hunt :: Humvee");
+    } else if(y==7){
+        return ("T-Hunt :: Corvette Stingray");
+    } else if(y==8){
+        return ("T-Hunt :: Head Starter");
+    } else if(y==9){
+        return ("T-Hunt :: HW Armored Truck");
+    } else if(y==10){
+        return ("T-Hunt :: Custom Ford Bronco");
+    } else if(y==11){
+        return ("T-Hunt :: Fast-Bed Hauler");
+    } else if(y==12){
+        return ("T-Hunt :: Cyber Speeder");
+    } else if(y==13){
+        return ("T-Hunt :: Sharkruiser");
+    } else if(y==14){
+        return ("T-Hunt :: Batman: The Animated Series");
+    } else if(y==15){
+        return ("T-Hunt :: ’67 Camaro");
+    } 
+}
+
+function getSoupPic2019() {
+    if (y==1){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/90-Honda-Civic-EF-2.jpg");
+    } else if(y==2){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Nissan-Skyline-GT-R.jpg");
+    } else if(y==3){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Corvette-Grand-Sport-Roadster.jpg");
+    } else if(y==4){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Volkswagen-T2-Pickup.jpg");
+    } else if(y==5){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-BTTF-Time-Machine-Hover-Mode.jpg");
+    } else if(y==6){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Mazda-Repu.jpg");
+    } else if(y==7){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-92-Ford-Mustang.jpg");
+    } else if(y==8){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-68-Mercury-Cougar.jpg");
+    } else if(y==9){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-69-Corvette-Racer.jpg");
+    } else if(y==10){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/18-Dodge-Challenger-SRT-Demon.jpg");
+    } else if(y==11){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Street-Creeper.jpg");
+    } else if(y==12){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Lamborghini-Aventador-J.jpg");
+    } else if(y==13){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Tesla-Model-S.jpg");
+    } else if(y==14){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Morris-Mini.jpg");
+    } else if(y==15){
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Porsche-911-GT3-RS.jpg");
+    } 
+}
+
+function getHuntPic2019() {
+    if (y==1){
+        return ("T-Hunt :: Bazoomka");
+    } else if(y==2){
+        return ("T-Hunt :: Sting Rod");
+    } else if(y==3){
+        return ("T-Hunt :: ’69 Chevelle");
+    } else if(y==4){
+        return ("T-Hunt :: Twin Mill");
+    } else if(y==5){
+        return ("T-Hunt :: Honda Monkey Z50");
+    } else if(y==6){
+        return ("T-Hunt :: Humvee");
+    } else if(y==7){
+        return ("T-Hunt :: Corvette Stingray");
+    } else if(y==8){
+        return ("T-Hunt :: Head Starter");
+    } else if(y==9){
+        return ("T-Hunt :: HW Armored Truck");
+    } else if(y==10){
+        return ("T-Hunt :: Custom Ford Bronco");
+    } else if(y==11){
+        return ("T-Hunt :: Fast-Bed Hauler");
+    } else if(y==12){
+        return ("T-Hunt :: Cyber Speeder");
+    } else if(y==13){
+        return ("T-Hunt :: Sharkruiser");
+    } else if(y==14){
+        return ("T-Hunt :: Batman: The Animated Series");
+    } else if(y==15){
+        return ("T-Hunt :: ’67 Camaro");
+    } 
 }
