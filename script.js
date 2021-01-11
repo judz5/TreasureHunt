@@ -23,7 +23,7 @@ function displayHunt() {
         document.getElementById("result").innerHTML = getSoup2019();
         src1.src = getSoupPic2019();
         document.getElementById("result2").innerHTML = getHunt2019();
-        //src2.src = getHuntPic2019();
+        src2.src = getHuntPic2019();
         document.getElementById("idCar").innerHTML = "";
         src3.src = "//:0";  
     }
@@ -520,34 +520,34 @@ function getSoupPic2019() {
 
 function getHuntPic2019() {
     if (y==1){
-        return ("T-Hunt :: Bazoomka");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Bazoomka.jpg");
     } else if(y==2){
-        return ("T-Hunt :: Sting Rod");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Sting-Rod.jpg");
     } else if(y==3){
-        return ("T-Hunt :: ’69 Chevelle");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-69-Chevelle.jpg");
     } else if(y==4){
-        return ("T-Hunt :: Twin Mill");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Twin-Mill.jpg");
     } else if(y==5){
-        return ("T-Hunt :: Honda Monkey Z50");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Honda-Monkey-Z50.jpg");
     } else if(y==6){
-        return ("T-Hunt :: Humvee");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Humvee.jpg");
     } else if(y==7){
-        return ("T-Hunt :: Corvette Stingray");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Corvette-Stingray.jpg");
     } else if(y==8){
-        return ("T-Hunt :: Head Starter");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Head-Starter.jpg");
     } else if(y==9){
-        return ("T-Hunt :: HW Armored Truck");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-HW-Armored-Truck.jpg");
     } else if(y==10){
-        return ("T-Hunt :: Custom Ford Bronco");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Custom-Ford-Bronco.jpg");
     } else if(y==11){
-        return ("T-Hunt :: Fast-Bed Hauler");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Fast-Bed-Hauler.jpg");
     } else if(y==12){
-        return ("T-Hunt :: Cyber Speeder");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Cyber-Speeder.jpg");
     } else if(y==13){
-        return ("T-Hunt :: Sharkruiser");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Sharkruiser.jpg");
     } else if(y==14){
-        return ("T-Hunt :: Batman: The Animated Series");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Batman-The-Animated-Series.jpg");
     } else if(y==15){
-        return ("T-Hunt :: ’67 Camaro");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-67-Camaro.jpg");
     } 
 }
