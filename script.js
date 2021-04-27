@@ -168,17 +168,17 @@ function getSoup2021() {
     } else if(y==7){
         return ("Super T-Hunt :: 2020 Ford Mustang Shelby GT500");
     } else if(y==8){
-        return ("Super T-Hunt :: Not Released");
+        return ("Super T-Hunt :: ’71 Datsun 510");
     } else if(y==9){
-        return ("Super T-Hunt :: Not Released");
+        return ("Super T-Hunt :: Porsche 356A Outlaw");
     } else if(y==10){
-        return ("Super T-Hunt :: Not Released");
+        return ("Super T-Hunt :: 2018 Honda Civic Type R");
     } else if(y==11){
-        return ("Super T-Hunt :: Not Released");
+        return ("Super T-Hunt :: ’68 Mercury Cougar");
     } else if(y==12){
-        return ("Super T-Hunt :: Not Released");
+        return ("Super T-Hunt :: 2019 Audi R8 Spyder");
     } else if(y==13){
-        return ("Super T-Hunt :: Not Released");
+        return ("Super T-Hunt :: ’49 Ford F1");
     } else if(y==14){
         return ("Super T-Hunt :: Not Released");
     } else if(y==15){
@@ -196,13 +196,13 @@ function getHunt2021() {
     } else if(y==4){
         return ("T-Hunt :: Motosaurus");
     } else if(y==5){
-        return ("T-Hunt :: Not Released");
+        return ("T-Hunt :: Skull Shaker");
     } else if(y==6){
-        return ("T-Hunt :: Not Released");
+        return ("T-Hunt :: Tred Shredder");
     } else if(y==7){
-        return ("T-Hunt :: Not Released");
+        return ("T-Hunt :: Deora II");
     } else if(y==8){
-        return ("T-Hunt :: Not Released");
+        return ("T-Hunt :: Mustang Funny Car");
     } else if(y==9){
         return ("T-Hunt :: Not Released");
     } else if(y==10){
@@ -296,25 +296,25 @@ function getSoupPic2021() {
     } else if(y==3){
         return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Rodger-Dodger.jpg");
     } else if(y==4){
-        return ("https://www.hwtreasure.com/wp-content/uploads/cars/95-Mazda-RX-7.jpg");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/95-Mazda-RX-7-1.jpg");
     } else if(y==5){
-        return ("https://www.hwtreasure.com/wp-content/uploads/cars/Corvette-C7-Z06-Convertible.jpg");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Corvette-C7-Z06-Convertible.jpg");
     } else if(y==6){
-        return ("https://www.hwtreasure.com/wp-content/uploads/cars/Mazda-RX-3.jpg");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Mazda-RX-3.jpg");
     } else if(y==7){
-        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2020-Ford-Mustang-Shelby-GT500.jpg");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-2020-Ford-Mustang-Shelby-GT500.jpg");
     } else if(y==8){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/71-Datsun-510.jpg");
     } else if(y==9){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/Porsche-356-Outlaw.jpg");
     } else if(y==10){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://preview.redd.it/rwmknzilsej61.jpg?width=960&crop=smart&auto=webp&s=210833dcd7b8e1651fea8f64d595d52c13c8d4f3");
     } else if(y==11){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/68-Mercury-Cougar-1.jpg");
     } else if(y==12){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2019-Audi-R8-Spyder.jpg");
     } else if(y==13){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/49-Ford-F1.jpg");
     } else if(y==14){
         return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
     } else if(y==15){
@@ -332,13 +332,13 @@ function getHuntPic2021() {
     } else if(y==4){
         return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Motosaurus.jpg");
     } else if(y==5){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Skull-Shaker.jpg");
     } else if(y==6){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Tred-Shredder.jpg");
     } else if(y==7){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Deora-II.jpg");
     } else if(y==8){
-        return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
+        return ("https://www.hwtreasure.com/wp-content/uploads/cars/2021-Mustang-Funny-Car.jpg");
     } else if(y==9){
         return ("https://www.pngitem.com/pimgs/m/119-1190874_warning-icon-png-png-download-icon-transparent-png.png");
     } else if(y==10){
@@ -401,18 +401,28 @@ function getIDPic2020() {
 function getID2021() {
     if(y==1){
         return ("ID Chase :: Batman: Arkham Knight Batmobile");
+    }else if(y==3){
+        return ("ID CHASE :: Twin Mill");
     }else if(y==5){
         return ("ID Chase :: GT Hunter");
+    }else if(y==7){
+        return ("ID Chase :: Arachnorod");
     }else{
-        return("");
+        return ("");
     }
 }
 
 function getIDPic2021() {
     if(y==1){
         return ("https://idchecklist.com/wp-content/uploads/2020/11/2021-Arkham-Knight-Batmobile-Chase-6.jpg");
+    }else if(y==3){
+        return ("https://idchecklist.com/wp-content/uploads/2021/01/2021-Twin-Mill-Chase.jpg");
     }else if(y==5){
-        return ("https://idchecklist.com/wp-content/uploads/2021/01/2021-GT-Hunter-Chase-2.jpg");
+        return ("https://idchecklist.com/wp-content/uploads/2021/01/2021-GT-Hunter-Chase-Blister-Card.jpg");
+    }else if(y==7){
+        return ("https://idchecklist.com/wp-content/uploads/2021/03/2021-Arachnorod-id-Chase-1.jpg");
+    }else{
+        return ("");
     }
 }
 
