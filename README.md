@@ -1,4 +1,4 @@
-# judz5.github.io
+# judz5.github.io/TreasureHunt
 Hotwheels Treasure Hunt App
 
 This is a passion project of mine to aid my self and other hotwheel collecters in searching for Super Treasure Hunts, Regular Treasure Hunts, and ID Chases.
