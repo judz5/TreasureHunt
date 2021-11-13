@@ -7,6 +7,8 @@ I made this With little no expeirence in HTML Web Development, Stack overflow wa
 
 This project helped me learn alot about html, javascript, and CSS styling.
 
+Update - Please do not look at the Javascript 😆 i had never used a switch statement 
+
 ## Features I Want To Add
 
 * ID Chases
